@@ -17,7 +17,7 @@
 const Route = use('Route')
 
 Route.get('/', () => {
-  return { greeting: 'Hello world in JSON from AdonisJs' }
+  return { greeting: 'Hello world in JSON from AdonisJs and NodeJS' }
 })
 
 Route.post('users/register','UserController.store')
